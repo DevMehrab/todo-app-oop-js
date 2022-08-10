@@ -21,6 +21,7 @@ body {
   width: 100vw;
   background-color: var(--dark);
   transition: .4s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 ::placeholder {
