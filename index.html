@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://dashboard.snapcraft.io/site_media/appmedia/2020/05/icon_sjsbj5P.png">
+    <title>ToDo</title>
+</head>
+<body>
+    <div class="bg-image">
+        <div class="gradient"> </div>
+    </div>
+    <div class="todo-container">
+        <nav>
+            <h3 class="logo">T O D O</h3>
+            <p class="view"><a href=""><ion-icon name="logo-github"></ion-icon></a></p>
+        </nav>
+        <div class="create-new-todo">
+           <div class="circle"></div> 
+           <input type="text" class="todo" placeholder="Create a new todo...">
+            <button class="add">Add</button>
+        </div>
+        <div class="list-container">
+            <div class="todo-list">
+            </div>
+            <div class="bottom">
+                <div class="todo-left"> 0 items left</div>
+                <div class="sort">
+                    <button class="all">All</button>
+                    <button class="active" >Active</button>
+                    <button class="completed">Completed</button>
+                </div>
+                <div class="clear">Clear completed</div>
+            </div>
+        </div>
+    </div>
+        <script src="app.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+</body>
+</html>
